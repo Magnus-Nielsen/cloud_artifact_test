@@ -23,5 +23,5 @@ if __name__ == "__main__":
     predicted = clf.predict(X_test)
 
     print(
-        f"Updated classification report for classifier {clf}:\n{metrics.classification_report(y_test, predicted)}\n"
+        f"Updated classification report for svm classifier {clf}:\n{metrics.classification_report(y_test, predicted)}\n"
     )
